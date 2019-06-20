@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.4);
+    position: fixed;
+}
+
+.logo {
+    height: 70px;
+    width: 85px;
+}
+
+.nav-list {
+    float: right;
+}
+
+.list-item {
+    list-style-type: none;
+    /* height: 40px; */
+    width: 60px;
+    /* background-color: rgb(73, 71, 72); */
+    float: left;
+    margin-right: 35px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+
+.list-item a:hover {
+    color: red;
+}
+
+/***********end of nav section**************/
+
+/* .banner-img {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+} */
+
+.banner-img {
+    background-image: url(../img/Woody_ToyStory.jpg);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+}
+/*examples of two ways to bring in your banner image-file. FIrst one thru HTML, Second on thru CSS*/
+
+
+.banner-text {
+    background-color: rgba(165, 42, 42, 0.863);
+    height: 70px;
+    width: 300px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: grey -3px -3px;
+    box-shadow: black 4px 4px;
+    border-radius: 6px;
+}
+
+.banner h1 {
+    margin-top: 7%;
+}
+
+/****************end of banner************/
+
+.main-section {
+    height: 570px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.col {
+    height: 520px;
+    width: 47%;
+    border: 3px solid rgb(88, 88, 88);
+    float: left;
+    margin-left: 22px;
+    /* text-align: center; */
+}
+
+.main-text p {
+    margin: 22px;
+    margin-top: 7.5%;
+}
+
+.main-img {
+    display: block;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    /* position: relative; */
+    /* top: 1549px; */
+    /* background-color: rgba(109, 47, 47, .5); */
+    background-color: rgba(128, 128, 128, 0.5);
+    /* text-align: center; */
+}
+
+.copy {
+    color: rgb(26, 25, 25);
+    margin-top: 12px;
+}
+
+.input, .social, .copy {
+    float: left;
+    width: 33.1%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+/* .columns {
+    height: 70px;
+    width: 32.5%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 6px;
+    text-align: center;
+} */
+
+.input input, .input button, .social a {
+    display: inline-block;
+    margin-top: 25px;
+    /* margin-left: 40px; */
+}
+
+.fa-facebook-square {
+    color: #3B5998;
+    font-size: 2em;
+    margin-top: 10%;
+}

@@ -1,0 +1,45 @@
+/* .nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.4);
+    position: fixed;
+} */
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+
+.contact-header {
+    background-color: rgba(165, 42, 42, 0.863);
+    /* height: 50px; */
+    width: 150px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    /* position: relative;
+    top: 95px;
+    left: 40%; */
+    margin: auto;
+    margin-top: 95px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: rgb(107, 107, 107) -3px -3px;
+    box-shadow: black 4px 4px;
+    border-radius: 6px;
+    /* padding: 3px; */
+}
+
+.container {
+    height: 560px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.contact-col {
+    height: 550px;
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 3.5%;
+}
